@@ -1,0 +1,39 @@
+body {
+  background-color: #f3f3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-drag {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 768px;
+  height: 100vh;
+
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.droppable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+
+  background-color: #313131;
+  padding: 15px;
+}
+
+.card {
+  cursor: pointer;
+  background-color: #f3f3f3;
+  padding: 15px 25px;
+  margin-top: 10px;
+}
